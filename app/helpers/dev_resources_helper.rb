@@ -1,0 +1,2 @@
+module DevResourcesHelper
+end

@@ -1,0 +1,36 @@
+<table class="pretty">
+  <tr>
+  	<th><%= sortable "prd_id"%></th>
+  	<th><%= sortable "pj_name"%></th>
+    <th><%= sortable "pj_status"%></th>
+    <th><%= sortable "pj_mng" %></th>  
+    <th><%= sortable "cr_all_count" %></th>
+    <th><%= sortable "cr_new_count" %></th>
+    <th><%= sortable "cr_coded_count" %></th>
+    <th><%= sortable "cr_tested_count" %></th>
+    <th>Dev Start</th>
+    <th>Dev End</th>
+    <th>Delivery</th>
+    
+</tr>
+
+<% @project_summary.each_with_index do |item,i| %>
+<% row_class = i%2 == 0 ? "even" : "odd" %> 
+<tr class="<%= row_class %>">
+	<td><%= item.prd_id%></td>	
+	<td><%= item.pj_name%></td>
+    <td><%= item.pj_status%></td>
+    <td><%= item.pj_mng %></td>
+    <td><%= item.cr_all_count %></td>
+    <td><%= item.cr_new_count %></td>
+    <td><%= item.cr_coded_count %></td>
+    <td><%= item.cr_tested_count %></td>
+    <td><%= item.dev_start %></td>
+    <td><%= item.dev_end %></td>
+    <td><%= item.delivery_dt%></td>
+</tr>
+    
+<% end %>
+</table>
+
+<%= will_paginate @dev_resources %>

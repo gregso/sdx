@@ -1,0 +1,24 @@
+<% title "Active Projects" %>
+<table id="search">
+<br>
+
+<%= form_tag project_summary_index_path, :method => 'get', :id => "project_summary_search" do %>
+	<%= hidden_field_tag :direction, params[:direction] %>
+	<%= hidden_field_tag :sort, params[:sort] %>
+	<table class="pretty">
+		<tr>
+			<th>Project Name</th>
+		</tr>
+		<tr class="search">
+		<td>
+			<%= text_field_tag :search_pj_name, params[:search_pj_name] %>
+		</td>
+		</tr>
+	</table>
+<%= submit_tag "Search", :search_pj_name => nil %>
+<% end %>
+			
+<p>
+<div id="project_summary"><%= render 'project_summary' %></div>
+
+

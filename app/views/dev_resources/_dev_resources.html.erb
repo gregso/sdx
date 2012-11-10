@@ -1,0 +1,36 @@
+<table class="pretty">
+  <tr>
+    <th><%= sortable "fl_name"%></th>
+    <th><%= sortable "pj_role"%></th>
+    <th><%= sortable "pj_manager" %></th>  
+    <th>Availability</th>
+    <th><%= sortable "current_project" %></th>  
+    <th><%= sortable "off_location" %></th>
+    <th><%= sortable "team_manager" %></th>
+    <th>Hired</th>
+    <th>SoftDev ID</th>
+    <th>Primary Entry</th>
+    <th>Project Group</th>
+</tr>
+
+<% @dev_resources.each_with_index do |item,i| %>
+<% row_class = i%2 == 0 ? "even" : "odd" %> 
+<tr class="<%= row_class %>">
+	<td><%= item.fl_name%></td>
+    <td><%= item.pj_role%></td>
+    <td><%= item.pj_manager %></td>
+    <td><%= item.pj_avail %></td>
+    <td><%= item.current_project %></td>
+    <td><%= item.off_location %></td>
+    <td><%= item.team_manager %></td>
+    <td><%= item.hired_date %></td>
+    <td><%= item.softdevid %></td>
+    <td><%= item.primary_entry %></td>
+    <td><%= item.pj_group%></td>
+    </tr>
+    
+  
+<% end %>
+</table>
+
+<%= will_paginate @dev_resources %>

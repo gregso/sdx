@@ -1,0 +1,9 @@
+off_location;fl_name;pj_role;team_manager;hired_date;softdevid;gis_exp;current_project;pj_manager;pj_avail;pj_group
+DP;Kateryna Lytvynenko;Tester;Andriy Radionov;5/2011;klyt;PathDX/UMICH, BCM, MAYO 3.2.2 Merging;BCM;Alex O;35;BCM
+DP;Maksym Agaponov;Tester;Andriy Radionov;2/2012;maga;PathDX/UMICH, BCM, MAYO 3.2.2 Merging;BCM;Alex O;35;BCM
+BD;Andriy Mayorov;Tester;Andriy Radionov;5/2011;andm;PathDX/UMICH, MAYO 3.2.2 Merging;REGRESSION;Alex O;35;BCM
+BD;Yuliya Neycheva;Tester;Andriy Radionov;5/2011;yney;PathDX/UMICH, MAYO 3.2.2 Merging;REGRESSION;Alex O;35;BCM
+Rzeszow;Karolina Kawalec;Developer;Janusz Glowacki;11/2009;kkawalec;MAYO/UMICH;UMICH/PARKN;Przemek;35;UMICH/PARKN
+Rzeszow;Joanna Kaczmarska;Developer;Janusz Glowacki;10/2007;jstrek;GENZYME/UMICH;UMICH/PARKN OUT;Przemek;0;UMICH/PARKN
+Rzeszow;Piotr Kucaj;Developer;Janusz Glowacki;2/2008;pkucaj;GENZYME/PERF/UMICH;UMICH/PARKN;Przemek;35;UMICH/PARKN
+Rzeszow;Daniel Grygiel;Developer;Janusz Glowacki;07/2007;dgrygiel;GENZYME/PERF/UMICH;UMICH/PARKN;Przemek;35;UMICH/PARKN

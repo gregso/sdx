@@ -1,0 +1,36 @@
+<% title "Development Resources" %>
+<table id="search">
+<br>
+
+<%= form_tag dev_resources_path, :method => 'get', :id => "dev_resources_search" do %>
+	<%= hidden_field_tag :direction, params[:direction] %>
+	<%= hidden_field_tag :sort, params[:sort] %>
+	<table class="pretty">
+		<tr>
+			<th>First/Last Name</th>
+			<th>Role</th>
+			<th>Pj Manager</th>
+			<th>Off Location</th>  
+		</tr>
+		<tr class="search">
+		<td>
+			<%= text_field_tag :search_fl_name, params[:search_fl_name] %>
+		</td>
+		<td>	
+			<%= text_field_tag :search_pj_role, params[:search_pj_role] %>
+		</td>
+		<td>	
+			<%= text_field_tag :search_pj_manager, params[:search_pj_manager] %>
+		</td>
+		<td>
+			<%= text_field_tag :search_off_location, params[:search_off_location] %>
+		</td>
+		</tr>
+	</table>
+<%= submit_tag "Search", :search_fl_name => nil %>
+<% end %>
+			
+<p>
+<div id="dev_resources"><%= render 'dev_resources' %></div>
+
+

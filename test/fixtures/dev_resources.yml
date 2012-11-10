@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  off_location: MyString
+  fl_name: MyString
+  pj_role: MyString
+  team_manager: MyString
+  hired_date: 2012-10-26 11:01:46
+  softdevid: MyString
+  gis_exp: MyString
+  current_project: MyString
+  pj_manager: MyString
+  pj_avail: MyString
+  pj_group: MyString
+  primary_entry: MyString
+
+two:
+  off_location: MyString
+  fl_name: MyString
+  pj_role: MyString
+  team_manager: MyString
+  hired_date: 2012-10-26 11:01:46
+  softdevid: MyString
+  gis_exp: MyString
+  current_project: MyString
+  pj_manager: MyString
+  pj_avail: MyString
+  pj_group: MyString
+  primary_entry: MyString

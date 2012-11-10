@@ -1,0 +1,29 @@
+off_location;fl_name;pj_role;team_manager;hired_date;softdevid;gis_exp;current_project;pj_manager;pj_avail;pj_group;primary_entry
+DP;Listochkin Andriy;Developer;Dmytro Kharchenko;2011/1;;LEFT;AIP;Dmytro Kharchenko;0;?;
+DP;Grynevych Oleksandr;Developer;Dmytro Kharchenko;2011/2;;LEFT;AIP;Dmytro Kharchenko;0;?;
+DP;Koshman Oleksandr;Developer;Dmytro Kharchenko;2011/2;;LEFT;AIP;Dmytro Kharchenko;0;?;
+LV;Frunze Mykhailo;Developer;Dmytro Kharchenko;2011/04;;Storage;MONTE;Dmytro Kharchenko;35;MONTE;
+LV;Tsyveliuk Dmytro;TL;Dmytro Kharchenko;2010/09;;Storage;STG;Dmytro Kharchenko;35;ALL;Storage Maintenace
+LV;Buchatskyi Sergii;Developer;Dmytro Kharchenko;2010/09;;Storage;MONTE;Dmytro Kharchenko;35;MONTE;
+LV;Nespliak Dmytro;Developer;Dmytro Kharchenko;2007/11;;Storage;MONTE;Dmytro Kharchenko;35;MONTE;
+LV;Shpak Yuriy;Developer;Dmytro Kharchenko;2011/08;;Storage;MONTE;Dmytro Kharchenko;35;MONTE;
+LV;Nazarovets' Taras;Tester;Dmytro Kharchenko;2009/12;;Storage;MONTE;Dmytro Kharchenko;35;MONTE;
+LV;Matiiv Roman;Developer;Dmytro Kharchenko;2010/12;;Molecular;MONTE;Dmytro Kharchenko;35;MONTE;
+LV;Pavlyk Nazar;Developer;Dmytro Kharchenko;2010/11;;Molecular;MONTE;Dmytro Kharchenko;35;MONTE;
+LV;Palamarchuk Oleksandr;Developer;Dmytro Kharchenko;2011/2;;Molecular;MONTE;Dmytro Kharchenko;35;MONTE;
+DP;Koshman Oleksandr;Developer;Dmytro Kharchenko;2011/2;;AIP;AIP;Dmytro Kharchenko;35;ALL;
+DP;Martynenko Oksana;TL;Dmytro Kharchenko;2000/12;;CSM;CSM;Dmytro Kharchenko;35;ALL;
+ZP;Kuderko Dmytro;Developer;Dmytro Kharchenko;2011/5;;CSM;CSM;Dmytro Kharchenko;35;ALL;
+DP;Pupov Oleg;TL;Dmytro Kharchenko;2008/3;;CSM;MONTE;Dmytro Kharchenko;35;MONTE;
+DP;Pupova Olena;Developer;Dmytro Kharchenko;2008/3;;CSM;CSM;Dmytro Kharchenko;35;ALL;
+DP;Shcheglova Nataliia;FuncArchitect;Dmytro Kharchenko;2006/6;;CSM;CSM;Dmytro Kharchenko;35;ALL;
+SV;Yevgen Yershov;Developer;Dmytro Kharchenko;2009/2;;CSM;MONTE;Dmytro Kharchenko;35;MONTE;
+SV;Olexiy Ozhigov;Developer;Dmytro Kharchenko;2012/3;;CSM;MONTE;Dmytro Kharchenko;35;MONTE;
+SV;Anton Dolenko;Developer;Dmytro Kharchenko;2012/4;;CSM;MONTE;Dmytro Kharchenko;35;MONTE;
+Rzeszow;Uchman Dariusz;Developer;Michal Madera;12/2010;duchman;Mayo (Bio, Flow) - MICHAL MADERA's team;MAYO TELEPAT;Dmytro Kharchenko;35;MAYO;
+Rzeszow;Dragan Dawid;Developer;Michal Madera;01/2009;ddragan;Mayo (Bio, Flow) - MICHAL MADERA's team;MAYO TELEPAT;Dmytro Kharchenko;35;MAYO;
+LV;Narepekha Roman;Developer;Tsyveliuk Dmytro;2011/04;;Storage;STG;Dmytro Kharchenko;35;ALL;Storage Maintenace
+LV;Kozak Roman;Developer;Tsyveliuk Dmytro;2007/12;;Storage;STG;Dmytro Kharchenko;35;ALL;Storage Maintenace
+LV;Vereshchynska Tetyana;Tester;Tsyveliuk Dmytro;2011/10;;Storage;STG;Dmytro Kharchenko;35;ALL;Storage Maintenace
+LV;Yurovych Tetyana;Tester;Tsyveliuk Dmytro;2007/07;;Storage;STG;Dmytro Kharchenko;35;ALL;Storage Maintenace
+LV;Shnitsar Andriy;Tester;Tsyveliuk Dmytro;2011/11;;Storage;STG;Dmytro Kharchenko;35;ALL;Storage Maintenace
